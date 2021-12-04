@@ -1,0 +1,43 @@
+@media(max-width: 565px) {
+    .listitem {
+        width: 150px;
+    }
+    .deletedListitem {
+        width: 150px;
+    }
+    .saveimglist {
+        display: none;
+    }
+    
+    .deleteimg {
+        display: none;
+    }
+    .deletebuttondeleted {
+        display: none;
+    }
+    .savebuttondeleted{
+        display: none;
+    }
+    .logoimg {
+        width: 33px;
+        height: 33px;
+    }
+
+    .trashimg {
+        width: 33px;    
+        height: 33px;
+    }
+
+    .buttonsdeleted {
+        justify-content: space-around;
+        margin-bottom: 5px;
+    }
+
+    .saveimgdeleted:hover + div{
+        display: block;
+    }
+
+    .deletedNotesCss {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,303 @@
+body {
+    background-color: #202124;
+    color: #e8eaed;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    scrollbar-color: #e8eaed;
+    scroll-behavior: smooth;
+}
+
+.logoimg {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 5px;
+}
+
+
+.logoimg:hover {
+    background-color: rgba(154, 160, 166, 0.157);
+    border-radius: 6px;
+}
+
+.trashimg:hover {
+    background-color: rgba(154, 160, 166, 0.157);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+
+.trashimg {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 75px;
+    left: 15px;
+    padding: 5px;
+}
+
+.inputdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #202124;
+    color: #e8eaed;
+    border: 1px solid rgb(119, 116, 116);
+    border-radius: 6px;
+    width: auto;
+    height: 100px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    padding: 12px 0 5px 10px;
+}
+
+.inputdiv:hover {
+    cursor: text;
+}
+
+.notecss {
+    height: 85%;
+    justify-content: center;
+    background-color: #202124;
+    color: #e8eaed;
+    border: none;
+    border-radius: 6px;
+    width: 95%;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    /* overflow-x: scroll; */
+    overflow-y: auto;
+    display: inline-block;
+}
+
+.titlecss {
+    justify-content: center;
+    background-color: #202124;
+    color: #e8eaed;
+    border: none;
+    border-radius: 6px;
+    width: 95%;
+    margin-top: -5px;
+}
+
+.savedtitlecss {
+    background-color: #202124;
+    color: #e8eaed;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.savednotecss {
+    background-color: #202124;
+    color: #e8eaed;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 54px;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.savednotecss:hover {
+    cursor: text;
+}
+
+input:focus {
+    outline-offset: 0px;
+    outline: none;
+}
+
+::placeholder {
+    font-size: larger;
+    font-weight: 600;
+    letter-spacing: .01428571em;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(177, 170, 170);
+    font-stretch: semi-expanded;
+}
+
+.hide {
+    display: none;
+    height: 15vh;
+}
+
+.saveimglist {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+}
+
+.saveimgdeleted {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+}
+
+.saveimg {
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+}
+
+.deleteimg {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    margin-left: 15px;
+}
+
+.deleteimgdeleted {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    margin-left: 15px;
+}
+
+.exileimg {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+
+.exileimg:hover {
+    cursor: pointer;
+}
+
+.savediv:hover {
+    cursor: pointer;
+}
+
+.savediv {
+    margin-right: 70%;
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.savelistdiv:hover {
+    cursor: pointer;
+}
+
+.deletedivlist:hover {
+    cursor: pointer;
+}
+
+.savebutton {
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(154, 160, 166, 0.157);
+    color: #e8eaed;
+}
+.savebuttondeleted {
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(154, 160, 166, 0.157);
+    color: #e8eaed;
+}
+.savebutton:hover {
+    cursor: pointer;
+}
+.savebuttondeleted:hover {
+    cursor: pointer;
+}
+
+.deletebuttondeleted {
+    margin-left: -3px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    padding: 1px 11px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(154, 160, 166, 0.157);
+    color: #e8eaed;
+}
+.deletebutton {
+    margin-left: -3px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    padding: 1px 11px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(154, 160, 166, 0.157);
+    color: #e8eaed;
+}
+.listitem {
+    width: 250px;
+    height: 150px;
+    background-color: #202124;
+    color: #e8eaed;
+    border: 1px solid rgb(119, 116, 116);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 10px 5px 10px 5px;
+}
+
+.deletedListitem {
+    width: auto;
+    height: 150px;
+    background-color: #202124;
+    color: #e8eaed;
+    border: 1px solid rgb(119, 116, 116);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 10px 5px 10px 5px;
+}
+
+.list {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.buttonsdeleted {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.deletedNotesCss {
+    margin-top: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.exileAllButton:hover {
+    cursor: pointer;
+}
+
+.exileAllButton {
+    border-radius: 7px;
+    border: none;
+    color: #e8eaed;
+    background-color: rgba(154, 160, 166, 0.157);
+}
+
+.exileAllDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+

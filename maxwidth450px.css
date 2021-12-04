@@ -1,0 +1,66 @@
+@media(max-width: 450px) {
+    .listitem {
+        width: 100px;
+        height: 110px;
+    }
+    .saveimglist {
+        display: initial;
+        width: 15px;
+        height: 15px;
+        margin-bottom: 25px;
+        margin-right: 10px;
+    }
+    .deleteimg {
+        display: initial;
+        width: 15px;
+        height: 15px;
+        margin-bottom: 25px;
+        margin-left: 10px;
+    }
+    .savebutton {
+        display: none;
+    }
+    .deletebutton {
+        display: none;
+    }
+    .savednotecss {
+        padding-bottom: 45px;
+    }
+    .inputdiv {
+        height: 80px;
+        margin-bottom: 10px;
+        margin-right: 25vw;
+        margin-left: 25vw;
+    }
+    .logoimg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .saveimg {
+        display: inherit;
+    }
+    .trashimg {
+        width: 25px;
+        height: 25px;
+        top: 53px;
+    }
+    .exileAllButton {
+        display: none;
+    }
+    .exileimg {
+        padding: 10px;
+    }
+    .exileimg:hover {
+        background-color: rgba(154, 160, 166, 0.157);
+        border-radius: 6px;
+    }
+
+    .deletedNotesCss {
+        margin-top: 35px;
+    }
+
+    .exileAllDiv {
+        margin-top: 35px;
+    }
+}
